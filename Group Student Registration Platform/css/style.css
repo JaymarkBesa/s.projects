@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 75px;
+    height: 75px; /* Ginawang parehas ang width at height upang maging isang bilog */
+    border-radius: 50%; /* Ginawang bilog ang logo gamit ang border-radius */
+    margin-right: 10px;
+    overflow: hidden; /* Siguraduhing hindi lumabas ang anumang mga labasan sa labas ng bilog */
+}
+
+nav {
+    background-color: #555;
+    padding: 10px 20px;
+    text-align: right;
+    font-size: large;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+main {
+    padding: 20px;
+    font-size: 25px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.content {
+    flex: 1;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.img {
+    margin: auto; /* Adjust margin as needed */
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#signinButton {
+    padding: 15px;
+    font-size: large;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+}
+
+#signinButton:hover {
+    background-color: #45a049; /* Darker Green */
+}

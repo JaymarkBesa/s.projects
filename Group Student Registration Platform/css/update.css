@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.logo {
+    width: 75px;
+    height: 75px; /* Ginawang parehas ang width at height upang maging isang bilog */
+    border-radius: 50%; /* Ginawang bilog ang logo gamit ang border-radius */
+    margin-right: 10px;
+    overflow: hidden; /* Siguraduhing hindi lumabas ang anumang mga labasan sa labas ng bilog */
+}
+
+nav {
+    background-color: #555;
+    padding: 10px 20px;
+    text-align: right;
+    font-size: large;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form {
+    width: 30%; /* Adjust width as needed */
+    margin: 10px auto; /* Center align the form */
+    border: 1px solid #ccc; /* Add border */
+    padding: 7px; /* Add padding for better appearance */
+    border-radius: 10px; /* Add border radius for rounded corners */
+}
+
+.form-group {
+    margin-bottom: 4px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="tel"],
+input[type="email"],
+textarea,
+select {
+    width: 100%; /* Make form elements take full width */
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 4px;
+    font-size: 9px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 7px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}

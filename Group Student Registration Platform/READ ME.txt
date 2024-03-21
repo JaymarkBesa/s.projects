@@ -1,0 +1,3 @@
+Database name: godlovesme
+Table for user: register
+Table for informations: tbinformation

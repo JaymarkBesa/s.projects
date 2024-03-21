@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.student-form {
+    max-width: 350px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="tel"],
+input[type="email"],
+textarea,
+select {
+    width: calc(100% - 20px);
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 7px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.logo {
+    width: 75px;
+    height: 75px; /* Ginawang parehas ang width at height upang maging isang bilog */
+    border-radius: 50%; /* Ginawang bilog ang logo gamit ang border-radius */
+    margin-right: 10px;
+    overflow: hidden; /* Siguraduhing hindi lumabas ang anumang mga labasan sa labas ng bilog */
+}
+
+nav {
+    background-color: #555;
+    padding: 10px 20px;
+    text-align: right;
+    font-size: large;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.holder {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+}
+
+.form {
+    width: 100%; /* Set width to 100% to take up the entire container width */
+    margin-bottom: 20px; /* Add some space between the form and the table */
+}
+
+.table-holder {
+    width: 100%; /* Set width to 100% to take up the entire container width */
+    overflow-x: auto; /* Add horizontal scroll if necessary */
+}
+
+.container {
+    max-width: auto;
+    padding: 20px;
+    overflow-x: hidden; /* Hide horizontal overflow for the whole container */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.table th, .table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center; /* Center align column headers and data in each row */
+}
+
+.table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.table tbody tr:hover {
+    background-color: #f0f0f0;
+}
+
+.btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.btn-info {
+    background-color: #3498db;
+}
+
+.btn-info:hover {
+    background-color: #2980b9;
+}
+
+.btn-danger {
+    background-color: #e74c3c;
+}
+
+.btn-danger:hover {
+    background-color: #c0392b;
+}
+
+p {
+    font-size: 18px;
+}
