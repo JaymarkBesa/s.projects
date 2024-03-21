@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #111;
+    color: #111;
+}
+
+.holder {
+    display: flex;
+}
+
+.form {
+    text-align: center;
+    margin: 25px 50px; /* Adjusted margin */
+    padding: 25px; /* Adjusted padding */
+    flex: 1;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #dddddd;
+    border: solid burlywood 3px;
+    max-width: 600px; /* Added maximum width */
+    width: 100%; /* Ensures it takes full width */
+}
+
+.form h2 {
+    text-align: center;
+    color: #111;
+    margin-bottom: 35px;
+}
+
+.form label {
+    font-weight: bold;
+}
+
+.form input[type="text"],
+.form input[type="date"],
+.form select {
+    width: calc(100% - 10px); /* Adjusted width to accommodate for border and padding */
+    padding: 10px; /* Increased padding */
+    margin: 10px 0; /* Adjusted margin */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form input[type="radio"],
+.form input[type="submit"] {
+    margin: 10px; /* Adjusted margin */
+}
+
+.form input[type="submit"] {
+    background-color: burlywood;
+    color: #111;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.form input[type="submit"]:hover {
+    background-color: brown;
+}
