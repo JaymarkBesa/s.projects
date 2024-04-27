@@ -1,0 +1,115 @@
+* {
+    user-select: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: beige;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    height: 510px;
+    width: 950px;
+    background-color: whitesmoke;
+    border: 1px solid #333; /* Darker shade of black */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.inside-container1,
+.inside-container2 {
+    width: 850px;
+    background-color: whitesmoke;
+    border: 1px solid #333; /* Darker shade of black */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.inside-container1 {
+    height: 100px;
+    top: 7%;
+}
+
+.inside-container2 {
+    height: 300px;
+    top: 33%;
+}
+
+button {
+    display: inline-block;
+    padding: 7px 15px;
+    background-color: #8B4513;
+    color: white; /* Darker shade of black */
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    position: absolute;
+    bottom: 4px;
+    left: 40%;
+    transform: translateX(-75%);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #333333; /* Darker shade of black */
+    color: whitesmoke;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: small;
+}
+
+th,
+td {
+    border: 1px solid #333; /* Darker shade of black */
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: beige;
+}
+
+tr.selected {
+    background-color: lightgoldenrodyellow; /* Lighter shade of beige */
+}
+
+select {
+    padding: 4px;
+    font-size: 16px;
+    border: 1px solid #333; /* Darker shade of black */
+    background-color: white;
+    color: #333; /* Darker shade of black */
+    width: 120px;
+}
+
+select option {
+    padding: 8px;
+    font-size: 16px;
+    background-color: white;
+    color: #333; /* Darker shade of black */
+}
+
+textarea {
+    width: 675px;
+    height: 80px;
+    resize: none;
+    margin-left: 108px;
+}
+
+.inside-container1 input {
+    border: 0;
+    outline: none;
+    cursor: default;
+}

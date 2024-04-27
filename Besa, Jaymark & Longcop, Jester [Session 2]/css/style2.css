@@ -1,0 +1,81 @@
+* {
+    user-select: none;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Default background color */
+    height: 100vh; /* Set body height to 100% of viewport height */
+    margin: 0; /* Remove default margin */
+}
+
+
+.container {
+    height: 500px;
+    width: 900px;
+    background-color: white;
+    border: 1px solid black;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.inside-container {
+    height: 400px;
+    width: 800px;
+    background-color: white;
+    border: 1px solid black;
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top:12px;
+}
+
+button {
+    display: inline-block;
+    padding: 7px 17px;
+    background-color: #8B4513;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid white;
+    cursor: pointer;
+    margin-top: 390px;
+    margin-left: 48px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: white;
+}
+
+button:hover {
+    background-color: #333333;
+    color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: small;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+td:first-child {
+    display: none;
+}
+th {
+    background-color: #f2f2f2;
+}
+
+tr.selected {
+    background-color: rgb(101, 214, 242) !important;
+    color: black !important;
+}
+
+tr#ZeroNum {
+    background-color: #ac0a0a;
+    color: white;
+}
